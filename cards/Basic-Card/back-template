@@ -1,0 +1,22 @@
+<div class="FrontSide">
+<div class="Container">
+
+<div class="Info">
+<div class="Tags">{{Tags}}</div>
+<div class="Decks">{{Deck}} - {{Subdeck}}</div>
+</div>
+
+<div id="Image">{{Image}}</div>
+
+<div id="Lang">{{Lang1-Source}}</div>
+
+<div class="Answer">
+
+{{Lang2-Target}}
+<br>
+
+{{Audio}}
+</div>
+</div>
+</div>
+
