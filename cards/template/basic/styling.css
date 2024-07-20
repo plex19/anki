@@ -1,81 +1,36 @@
 .card {
-  font-family: Lucida Console;
-  font-size: 24px;
+  position: absolute;
+  font-family: arial;
+  font-size: 20px;
   text-align: center;
   color: black;
   background-color: white;
-}
-
-.Info {
-  margin: 0px 0px 12px 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .Container {
-  border-radius: 35px;
-  border: 0.2rem solid grey;
-  padding: 18px;
+  border-radius: 20px;
+  border: 0.2rem solid black;
+  padding: 1.8rem;
+  box-shadow: 7px 7px 5px rgba(41, 149, 152, 0.5);
 }
 
-.Tags {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  font-family: Lucida Console;
-  font-size: 14px;
-  border-radius: 10px;
-  color: #0a001a;
-  border: 0.2rem solid grey;
-  text-align: center;
-  margin: 1.2rem 1.4rem;
-  padding: 0.3rem;
-  width: 30%;
-  box-shadow: 4px 4px rgba(255, 195, 0, 0.1);
-}
-
-.Decks {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-family: Lucida Console;
-  font-size: 14px;
-  border-radius: 10px;
-  color: #ff9900;
-  border: 0.2rem solid grey;
-  text-align: center;
-  width: 30%;
-  margin: 1.2rem 1.4rem;
-  padding: 0.3rem;
-  box-shadow: 4px 4px rgba(255, 195, 0, 0.1);
+.Question {
+  color: #35cfd3;
+  font-size: 16pt;
   font-weight: bold;
-}
-
-#Image {
-  margin: 5rem 0rem 0rem 0rem
-  padding: 1.4rem;
-  font-family: Lucida Console;
-}
-
-#Image img.zoomed {
-  transform: scale(1.7);
-}
-
-.FrontSide {
-  background-color: #0a3e4b;
-  border-radius: 32px;
-  font-size: 16px;
+  margin: 2rem;
 }
 
 .Answer {
-  background-color: #4b170a;
-  border-radius: 32px;
-  font-size: 16px;
+  border-radius: 20px;
+  border: 0.2rem solid grey;
+  margin: 1.8rem 0rem 0.4rem 0rem;
+  padding: 1.2rem 10rem;
+  background-color: #299598;
+  color: white;
   font-weight: bold;
-  padding: 5px;
-  margin: 15px 95px;
-  box-shadow: 2px 4px rgba(210, 210, 210, 0.05);
-}
-
-#Lang.shift,
-#ShowText {
-  transform: translateY(25px);
+  box-shadow: 7px 7px 5px rgba(41, 149, 152, 0.5);
 }
