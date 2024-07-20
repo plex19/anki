@@ -1,0 +1,46 @@
+<div class="FrontSide">
+  <div class="Container">
+    <div class="Info">
+      <div class="Tags">{{ Tags }}</div>
+      <div class="Decks">{{ Deck }} - {{ Subdeck }}</div>
+    </div>
+    <div id="Image">{{ Image }}</div>
+    <div id="Lang">{{ Lang1-Source }}</div>
+    <br />
+    <button id="ShowText" onclick="DisplayText()">Show Text</button>
+    <br />
+  </div>
+</div>
+
+<script>
+  //var
+  var lang = document.getElementById("Lang");
+  var img = document.getElementById("Image");
+  
+  lang.style.visibility = "hidden";
+
+  //functions
+  function DisplayText() {
+    var lang = document.getElementById("Lang");
+    if (lang.style.visibility === "hidden") {
+      lang.style.visibility = "visible";
+    } else {
+      lang.style.visibility = "hidden";
+    }
+  }
+
+  //eventlistener
+  lang.addEventListener("click", function () {
+    if (lang.style.visibility === "hidden") {
+      lang.style.visibility = "visible";
+    } else {
+      lang.style.visibility = "hidden";
+    }
+  });
+
+  img.addEventListener("click", function (e) {
+    const tgt = e.target;
+    tgt.classList.toggle("zoomed");
+    lang.classList.toggle("shift");
+  });
+</script>
