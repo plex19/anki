@@ -1,79 +1,81 @@
 .card {
-    font-family: Lucida Console;
-    font-size: 24px;
-    text-align: center;
-    color: black;
-    background-color: white;
+  font-family: Lucida Console;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  background-color: white;
 }
 
 .Info {
-	margin: 0px 0px 12px 0px;
+  margin: 0px 0px 12px 0px;
 }
 
-.Container{
-	border-radius: 35px;
-	border: 0.2rem solid grey;
-	padding: 18px;
+.Container {
+  border-radius: 35px;
+  border: 0.2rem solid grey;
+  padding: 18px;
 }
 
-.Tags{
-		position: absolute;
-		top: 20px;
-   left: 20px;
-		font-family: Lucida Console;
-		font-size: 14px;
-	 	border-radius: 10px;
-		color:  #0a001a;
-		border: 0.2rem solid grey;
-		text-align: center;
-		margin: 1.2rem 1.4rem;
-		padding: 0.3rem;
-		width: 30%;
-		box-shadow: 4px 4px rgba(255, 195, 0, .1);
+.Tags {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: Lucida Console;
+  font-size: 14px;
+  border-radius: 10px;
+  color: #0a001a;
+  border: 0.2rem solid grey;
+  text-align: center;
+  margin: 1.2rem 1.4rem;
+  padding: 0.3rem;
+  width: 30%;
+  box-shadow: 4px 4px rgba(255, 195, 0, 0.1);
 }
 
-.Decks{
-		position: absolute;
-		top: 20px;
-   right: 20px;
-		font-family: Lucida Console;
-		font-size: 14px;
-	 	border-radius: 10px;
-		color: #ff9900;
-		border: 0.2rem solid grey;
-		text-align: center;
-		width: 30%;
-		margin: 1.2rem 1.4rem;
-		padding: 0.3rem;
-		box-shadow: 4px 4px rgba(255, 195, 0, .1);
-   font-weight: bold;
+.Decks {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-family: Lucida Console;
+  font-size: 14px;
+  border-radius: 10px;
+  color: #ff9900;
+  border: 0.2rem solid grey;
+  text-align: center;
+  width: 30%;
+  margin: 1.2rem 1.4rem;
+  padding: 0.3rem;
+  box-shadow: 4px 4px rgba(255, 195, 0, 0.1);
+  font-weight: bold;
 }
 
-#Image{
- padding: 1.4rem;
- font-family: Lucida Console;
+#Image {
+  margin: 5rem 0rem 0rem 0rem
+  padding: 1.4rem;
+  font-family: Lucida Console;
 }
 
 #Image img.zoomed {
-	transform: scale(1.7);
+  transform: scale(1.7);
 }
 
-.FrontSide{
-		background-color: #0A3E4B;
-		border-radius: 32px;
-   font-size: 16px;
+.FrontSide {
+  background-color: #0a3e4b;
+  border-radius: 32px;
+  font-size: 16px;
 }
 
-.Answer{
-		background-color: #4B170A;
-		border-radius: 32px;
-		font-size: 16px;
-   font-weight: bold;
-		padding: 5px;
-		margin: 15px 95px;
-		box-shadow: 2px 4px rgba(210, 210, 210, .05);
+.Answer {
+  background-color: #4b170a;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 15px 95px;
+  box-shadow: 2px 4px rgba(210, 210, 210, 0.05);
 }
 
-#Lang.shift, #ShowText {
-		transform: translateY(25px); 
+#Lang.shift,
+#ShowText {
+  transform: translateY(25px);
 }
