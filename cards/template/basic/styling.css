@@ -1,36 +1,54 @@
 .card {
   position: absolute;
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  background-color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+font-family: arial;
+font-size: 20px;
+text-align: center;
+color: black;
+background-color: white;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .Container {
-  border-radius: 20px;
-  border: 0.2rem solid black;
-  padding: 1.8rem;
-  box-shadow: 7px 7px 5px rgba(41, 149, 152, 0.5);
+border-radius: 20px;
+border: 0.2rem solid black;
+padding: 1.8rem;
+box-shadow: 7px 7px 5px rgba(41, 149, 152, .5);
 }
 
 .Question {
-  color: #35cfd3;
-  font-size: 16pt;
-  font-weight: bold;
-  margin: 2rem;
+color: #35cfd3;
+font-size: 16pt;
+font-weight: bold;
+margin: 2rem;
 }
 
 .Answer {
-  border-radius: 20px;
-  border: 0.2rem solid grey;
-  margin: 1.8rem 0rem 0.4rem 0rem;
-  padding: 1.2rem 10rem;
-  background-color: #299598;
-  color: white;
-  font-weight: bold;
-  box-shadow: 7px 7px 5px rgba(41, 149, 152, 0.5);
+border-radius: 20px;
+border: 0.2rem solid grey;
+margin: 1.8rem 0rem 0.4rem 0rem;
+padding: 1.2rem 10rem;
+background-color: #299598;
+color: white;
+font-weight: bold;
+box-shadow: 7px 7px 5px rgba(41, 149, 152, .5);
+}
+
+.Info {
+margin: 0px 0px 12px 0px;
+}
+
+.Decks {
+position: absolute;
+top:1rem;
+left:1rem;
+font-size: 9pt;
+border-radius: 20px;
+color: #ff9900;
+border: 0.2rem solid grey;
+text-align: center;
+padding: 0.1rem;
+box-shadow: 2px 2px 3px rgba(41, 149, 152, .5);
+font-weight: bold;
 }

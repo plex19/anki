@@ -1,5 +1,8 @@
 <div class="Container">
-  <div class="Question">
-    {{ Front }}
-  </div>
+ 		<div class="Info">
+      <div class="Decks">{{ Deck }} - {{ Subdeck }}</div>
+		</div>
+	<div class="Question">
+		{{Front}}
+	</div>
 </div>
